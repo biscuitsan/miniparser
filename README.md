@@ -1,10 +1,10 @@
-# tinyparser
+# miniparser
 Tiny alternative for the popular [body-parser](https://www.npmjs.com/package/body-parser) package. Zero dependencies vs [21.](http://npm.broofa.com/?q=body-parser) Just handles JSON for now.
 ## Install
-`npm i tinyparser`
+`npm i miniparser`
 ## Example
 ```javascript
-const bodyParser = require('tinyparser')
+const bodyParser = require('miniparser')
 require('polka')()
 	.use(bodyParser()) // you can also use bodyParser.json()
 	.get('/', (req, res) => {

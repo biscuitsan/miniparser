@@ -1,5 +1,5 @@
 {
-  "name": "tinyparser",
+  "name": "miniparser",
   "version": "1.0.0",
   "description": "A tiny replacement for body-parser",
   "main": "index.js",
