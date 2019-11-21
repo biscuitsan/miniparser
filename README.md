@@ -6,11 +6,11 @@ Tiny alternative for the popular [body-parser](https://www.npmjs.com/package/bod
 ```javascript
 const bodyParser = require('miniparser')
 require('polka')()
-	.use(bodyParser()) // you can also use bodyParser.json()
-	.get('/', (req, res) => {
-		console.log(req.body)
-		res.end()
-	})
+  .use(bodyParser()) // you can also use bodyParser.json()
+  .get('/', (req, res) => {
+    console.log(req.body)
+    res.end()
+  })
 ```
 
 If the JSON body is misformatted or unable to be parsed, an empty JSON object will be returned (`{}`)
